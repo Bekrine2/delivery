@@ -1,0 +1,182 @@
+ 
+ *{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+ }
+ 
+ 
+ 
+ 
+ body{
+    font-family: 'Noto Kufi Arabic', sans-serif !important;
+
+ }
+ 
+
+ 
+.navbar{
+    background-color: #63070f;
+}
+
+
+.navbar .navbar-nav .nav-item .nav-link{
+    color: rgb(205, 203, 203) ;
+     font-weight: bold;
+    margin-left: 10px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link.active{
+    color: #f9fafb;
+   
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    color: white;
+   
+}
+.navbar-toggler svg{
+    color: #fff;
+    font-size: 25px;
+}
+.navbar .navbar-toggler:focus{
+    box-shadow: none;
+}
+.navbar .navbar-toggler[aria-expanded= "true"] {
+    border-color: #fff;
+     
+}
+ 
+.landing .bg-img img{
+    height: calc(100vh - 56px);
+    width: 100%;
+}
+    
+.landing .overlay{
+    position: absolute;
+    background-color: #00000084;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.landing  h2{
+    position: absolute;
+    z-index: 1;
+    top: 72px;
+    max-width: 803px;
+    right: 0px;
+    line-height: 1.8;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+    
+
+.landing   p{
+    position: absolute;
+    color: #c6c6c6;
+    padding: 47px;
+    z-index: 1;
+    top: 29%;
+    line-height: 2.8;
+    max-width: 800px;
+    font-size: 12px;
+
+}
+@media(max-width:375px){
+    .landing h2{
+        font-size: 23px;
+        top: 59px;
+    }
+   
+}
+
+.servicess{
+    background-color: #f6f6f6;
+}
+
+.feat{
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 13px;
+}
+.feat img{
+    width: 100px;
+    border-radius: 10px;
+}
+
+
+.tex h1{
+    color: #1746a2;
+}
+.carousel-inner .carousel-item img {
+  
+}
+
+.carousel-caption{
+    position: relative !important;
+    text-align: center !important;
+    padding: 15px !important;
+    margin-top: 29px !important;
+    margin-left: 35% !important;
+}
+
+.call a{
+    border-radius: 8px;
+    background-color: #097945;
+    text-decoration: none !important;
+   
+}
+.call svg{
+font-size: 20px;
+margin-bottom: 8px;
+ color: white !important;
+}
+
+.card-body h5{
+    color: #097945 !important;
+    font-weight: 700 !important;
+}
+
+.about a{
+
+    text-decoration: none !important;
+}
+.about a h3{
+    border-radius: 8px !important;
+    cursor: pointer !important;
+}
+
+
+.footer{
+    background-color: #071934;
+}
+
+.copyright > span{
+    color: green !important;
+}
+
+
+.footer .copyright div span{
+    color: yellow;
+}
+
+.footer .contact ul svg{
+    width: 23px;
+    height: 23px;
+    padding: 7px;
+
+}
+
+.footer .fb{
+    background-color: #1877f2;
+}
+.footer .sp{
+    background-color: #fffc00;
+}
+.footer .wts{
+    background-color: #25d366;
+}
